@@ -1,6 +1,6 @@
 # Installation Guide
 
-1. Perform a git pull.
+1. Perform a git pull. ```git pull git@github.com:nungbin/django_firstproject_in_colab.git```
 2. In the terminal, type in 'pip install django' to install Django.
 
 ## Below steps are for the preparation of running the app
