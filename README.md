@@ -14,7 +14,7 @@ Once registered, log in to your ngrok dashboard.
 Locate your authentication token in the dashboard under the "Setup & Installation" section.
 Copy the token to your clipboard for use in the Colab notebook.
 
-7. ngrok_token = "<authentication token>"
+7. ngrok_token = "```<authentication token>```"
 8. ngrok config add-authtoken {ngrok_token}
 9. curl ipv4.icanhazip.com
 10. cd /content/firstproject
