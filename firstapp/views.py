@@ -8,4 +8,4 @@ def hello_world(request):
 
 class helloTaiwan(View):
       def get(self, request):
-          return HttpResponse("Hello Taiwan 2")
+          return HttpResponse("Hello Taiwan 3")
