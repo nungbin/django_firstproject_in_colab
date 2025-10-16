@@ -1,4 +1,4 @@
-# Installation Guide
+# Installation Guide (learning from this [youtube](https://youtu.be/0roB7wZMLqI?si=4pS1F9CYk2xuM_oN))
 
 1. Under the ```/content```folder. Create a folder ```firstproject```.
 2. ```cd firstproject```
@@ -17,8 +17,11 @@ Once registered, log in to your ngrok dashboard.
 Locate your authentication token in the dashboard under the "Setup & Installation" section.
 Copy the token to your clipboard for use in the Colab notebook.
 
-7. ngrok_token = "```<authentication token>```"
-8. ngrok config add-authtoken {ngrok_token}
-9. curl ipv4.icanhazip.com
-10. cd /content/firstproject
-11. concurrently "python manage.py runserver 8501" "ngrok http 8501 --log=stdout"
+7. ngrok config add-authtoken "```<authentication token>```"
+8. curl ipv4.icanhazip.com
+9. cd /content/firstproject
+10. concurrently "python manage.py runserver 8501" "ngrok http 8501 --log=stdout"
+
+## To test with two URLs
+* (url generated from step 10)/app/function
+* (url generated from step 10)/app/class
