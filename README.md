@@ -1,12 +1,13 @@
 # Installation Guide (learning from this [youtube](https://youtu.be/0roB7wZMLqI?si=4pS1F9CYk2xuM_oN))
 
+## Run the below steps in the terminal of colab.
 1. Under the ```/content```folder. Create a folder ```firstproject```.
 2. ```cd firstproject```
 3. Run ```git init``` to initialize a repository
 4. Perform a git pull. ```git pull git@github.com:nungbin/django_firstproject_in_colab.git```
 5. In the terminal, type in ```pip install django``` to install Django.
 
-## Below steps are for the preparation of running the app
+## Preparation of running the app
 4. npm install --global http-server
 5. npm install -g ngrok
 6. npm install -g concurrently
