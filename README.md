@@ -35,7 +35,7 @@ Copy the token to your clipboard for use in the Colab notebook.
 16. cd /content/firstproject
 17. concurrently "python manage.py runserver 8501" "ngrok http 8501 --log=stdout"
 
-## To test with two URLs
+## To test with below URLs
 * (url generated from step 10)
 * (url generated from step 10)/app/function
 * ```python manage.py createsuperuser```: run this in the terminal to set up super user credentials
