@@ -38,4 +38,6 @@ Copy the token to your clipboard for use in the Colab notebook.
 ## To test with two URLs
 * (url generated from step 10)
 * (url generated from step 10)/app/function
+### set up super user credentials
+* ```python manage.py createsuperuser```
 * (url generated from step 10)/admin
