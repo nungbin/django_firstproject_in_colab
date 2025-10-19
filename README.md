@@ -36,5 +36,6 @@ Copy the token to your clipboard for use in the Colab notebook.
 17. concurrently "python manage.py runserver 8501" "ngrok http 8501 --log=stdout"
 
 ## To test with two URLs
+* (url generated from step 10)
 * (url generated from step 10)/app/function
-* (url generated from step 10)/app/class
+* (url generated from step 10)/admin
